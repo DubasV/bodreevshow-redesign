@@ -41,8 +41,12 @@ node --check raffle.js
 node scripts/raffle.test.cjs
 ```
 
-## Публикация на GitHub Pages
+## Публикация
 
-Публичный отдельный репозиторий `bodreevshow-redesign`. Загрузить файлы из корня проекта, затем Settings → Pages → Deploy from a branch → codex/redesign → / (root) → Save. Файл `.nojekyll` отключает обработку Jekyll. Относительные пути подходят для адреса вида `https://ACCOUNT.github.io/bodreevshow-redesign/`.
+Репозиторий: https://github.com/DubasV/bodreevshow-redesign
 
-Материалы и фотографии принадлежат их правообладателям. Эта версия не означает передачу прав на оригинальные тексты и изображения. Библиотека SheetJS (XLSX) поставляется по Apache-2.0; источник: https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js (та же версия, которую использовал оригинальный Пивотрон).
+Тестовый сайт: https://dubasv.github.io/bodreevshow-redesign/
+
+GitHub Pages настроен на ветку `main`, папку `/ (root)`. Для обновления сайта загрузите изменённые файлы в `main`; GitHub опубликует новую версию автоматически. `.nojekyll` отключает Jekyll.
+
+Материалы и фотографии принадлежат их правообладателям. Тестовая публикация не означает передачу прав на оригинальные тексты и изображения.
